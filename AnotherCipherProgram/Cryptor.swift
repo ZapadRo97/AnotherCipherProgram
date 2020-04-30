@@ -61,6 +61,7 @@ class Cryptor: NSObject {
         alphabet = uniqueCharactersKey.map{ String($0) } + alphabet
         
         //construct polybius map
+        //better than a matrix for performance
         var row = 1
         var col = 1
         for character in alphabet {
@@ -98,10 +99,12 @@ class Cryptor: NSObject {
                 characterString = "I"
             }
             let coords = polybiusMap[characterString]
+            //put indexes on two lines
             firstLine.append(coords![0])
             secondLine.append(coords![1])
         }
         var cryptedText2 = ""
+        //and them write them by rows
         let allLines = firstLine + secondLine
         for index in stride(from: 0, to: allLines.count, by: 2) {
             let row = allLines[index]
@@ -114,6 +117,7 @@ class Cryptor: NSObject {
         return String(cryptedText2)
     }
     
+    // helper function to calculate a ^-1 for decrypt
     func extendedGcd(a : Int, b: Int) -> Int{
         
         var r1 = a, r2 = b, u1 = 1, v1 = 0, u2 = 0, v2 = 1
