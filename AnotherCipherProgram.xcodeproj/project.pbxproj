@@ -11,6 +11,9 @@
 		170DC575245756A5004EF19C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DC574245756A5004EF19C /* ViewController.swift */; };
 		170DC577245756A6004EF19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DC576245756A6004EF19C /* Assets.xcassets */; };
 		170DC57A245756A6004EF19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170DC578245756A6004EF19C /* Main.storyboard */; };
+		170DC58324575940004EF19C /* InteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DC58224575940004EF19C /* InteractiveViewController.swift */; };
+		170DC5852457596C004EF19C /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DC5842457596C004EF19C /* FileViewController.swift */; };
+		170DC58724584781004EF19C /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DC58624584781004EF19C /* Cryptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		170DC579245756A6004EF19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		170DC57B245756A6004EF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		170DC57C245756A6004EF19C /* AnotherCipherProgram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnotherCipherProgram.entitlements; sourceTree = "<group>"; };
+		170DC58224575940004EF19C /* InteractiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveViewController.swift; sourceTree = "<group>"; };
+		170DC5842457596C004EF19C /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		170DC58624584781004EF19C /* Cryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				170DC578245756A6004EF19C /* Main.storyboard */,
 				170DC57B245756A6004EF19C /* Info.plist */,
 				170DC57C245756A6004EF19C /* AnotherCipherProgram.entitlements */,
+				170DC58224575940004EF19C /* InteractiveViewController.swift */,
+				170DC5842457596C004EF19C /* FileViewController.swift */,
+				170DC58624584781004EF19C /* Cryptor.swift */,
 			);
 			path = AnotherCipherProgram;
 			sourceTree = "<group>";
@@ -133,7 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170DC58324575940004EF19C /* InteractiveViewController.swift in Sources */,
 				170DC575245756A5004EF19C /* ViewController.swift in Sources */,
+				170DC58724584781004EF19C /* Cryptor.swift in Sources */,
+				170DC5852457596C004EF19C /* FileViewController.swift in Sources */,
 				170DC573245756A5004EF19C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

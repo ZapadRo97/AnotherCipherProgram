@@ -30,6 +30,8 @@
 	<string>NSApplication</string>
 	<key>NSSupportsAutomaticTermination</key>
 	<true/>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Needed</string>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
 </dict>
